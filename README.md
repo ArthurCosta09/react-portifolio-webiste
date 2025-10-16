@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+# Portifolio website using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Portifolio website built in Typescript using React framework. All the dependencies (react-dom, react-leaflet, react-routers, react-loaders, fortawesome) were installed with Nodejs.
 
-## Available Scripts
+The purpose of this project is to improve my front-end skills using the Meta's most popular framework. React's main advantages include reusable components and efficient performance thanks to its use of a Virtual DOM.
 
-In the project directory, you can run:
+## Instalation
 
-### `npm start`
+First, you need to install and set up the [Nodejs](https://nodejs.org/en/download) to debug or build the project. Then you must run this command line in the command prompt and make sure to run it in the project folder.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```git
+npm install
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Since you install the dependencies, you just need to create the .env file and add these three variables
 
-### `npm test`
+```sh
+REACT_APP_PUBLIC_KEY=your_public_key
+REACT_APP_SERVICE_ID=your_service_id
+REACT_APP_TEMPLATE_ID=your_template_id
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+These variables allow the emailjs to connect the contact form to your email address. But first you must have an [emailjs](https://www.emailjs.com/) account and create a Gmail service (service id) and an email template (template id).
 
-### `npm run build`
+Finally, you can execute the project by running the command below.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```git
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Inside the project, you are free to make changes like style, name, about description, map location and contact form.
