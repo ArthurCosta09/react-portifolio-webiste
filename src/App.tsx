@@ -9,7 +9,6 @@ import Contact from './components/Contact';
 const App = () => {
   return (
     <>
-      // Application routes (Home, About and Contact)
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />} />
